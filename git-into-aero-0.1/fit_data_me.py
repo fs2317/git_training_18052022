@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from scipy.optimize import curve_fit
 
 filename = "example_data.csv"
 data = np.loadtxt(filename, delimiter=",", skiprows=1)
